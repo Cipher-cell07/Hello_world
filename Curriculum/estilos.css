@@ -1,0 +1,40 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.maincontainer { 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.blue {
+    background-image: url("Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.acomodo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acomodo h1{
+    color: white;
+}
+
+.social_media{
+    margin-top: 15px;
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.columnas p {
+    text-align: center;
+    color: white;
+}
